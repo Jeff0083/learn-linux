@@ -18,7 +18,7 @@ bootload.bin:
 	$(AS) $(AS_FLAGS) bootload.s -o bootload.o
 	$(LD) $(LD_FLAGS) bootload.o -o bootload.elf -T ldscript
 	$(OBJCOPY) $(OBJCOPY_FLAGS) bootload.elf $@
-qemu:
+qemu:all
 	$(QEMU) $(QEMU_FLAGES) bootload.img -boot a $(CURSES)
 
 clean:
