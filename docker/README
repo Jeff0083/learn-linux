@@ -1,0 +1,4 @@
+1.使用该dockerfile可以直接创建实验环境，前提需要安装docker-ce;
+2.使用dockerfile创建docker image的方法，请自行百度/google
+	示例： docker build -t joey-ubuntu:v1 ./
+3.docker的使用方法可以简单学习一下;

@@ -1,0 +1,1 @@
+In real mode, use int12 to get ROM-BIOS memory-size
